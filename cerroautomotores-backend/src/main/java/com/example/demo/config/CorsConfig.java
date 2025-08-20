@@ -13,7 +13,7 @@ public class CorsConfig {
   public CorsFilter corsFilter() {
     CorsConfiguration cors = new CorsConfiguration();
     cors.setAllowedOrigins(List.of(
-      "https://TU-SITIO.netlify.app"   // ← poné tu URL real
+      "https://68a5f5ccb60c3b90480fa9c4--incandescent-selkie-9245c2.netlify.app/"   // ← poné tu URL real
       // "https://TU-SITIO.vercel.app" // si usás Vercel
     ));
     cors.setAllowedMethods(List.of("GET","POST","PUT","PATCH","DELETE","OPTIONS"));
